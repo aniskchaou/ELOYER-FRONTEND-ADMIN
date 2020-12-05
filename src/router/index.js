@@ -1,11 +1,12 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import patient from '../components/patient.vue'
-import medecin from '../components/medecin.vue'
+import Contact from '../components/Contact.vue'
+import Affair from '../components/Affair.vue'
+import Rendezvous from '../components/Rendezvous.vue'
+import Study from '../components/Study.vue'
+import Task from '../components/Task.vue'
 import Dashboard from '../components/Dashboard.vue'
-import analyse from '../components/analyse.vue'
-import payment from '../components/payment.vue'
-
+import Document from '../components/Document.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -15,23 +16,33 @@ const routes = [
     component: Dashboard
   },
   {
-    path: '/patient',
-    name: 'patient',
-    component: patient
+    path: '/contact',
+    name: 'contact',
+    component: Contact
   },{
-    path: '/medecin',
-    name: 'medecin',
-    component: medecin,
+    path: '/affair',
+    name: 'affair',
+    component: Affair,
   },
   {
-    path: '/payment',
-    name: 'payment',
-    component: payment,
+    path: '/rendezvous',
+    name: 'rendezvous',
+    component: Rendezvous,
   },
   {
-    path: '/analyse',
-    name: 'analyse',
-    component: analyse,
+    path: '/study',
+    name: 'study',
+    component: Study,
+  },
+  {
+    path: '/task',
+    name: 'task',
+    component: Task,
+  },
+  {
+    path: '/document',
+    name: 'document',
+    component: Document,
   }
 ]
 
