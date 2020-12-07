@@ -84,7 +84,7 @@
       <div class="header bg-primary pb-6">
         <div class="container-fluid">
           <div class="header-body">
-          <a href="#" class="btn btn-success"><span class="glyphicon glyphicon-trash"></span>  Ajouter</a>
+         
           </div>
         </div>
       </div>
