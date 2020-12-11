@@ -7,11 +7,23 @@ import Study from '../components/Study.vue'
 import Task from '../components/Task.vue'
 import Dashboard from '../components/Dashboard.vue'
 import Document from '../components/Document.vue'
+import Login from '../components/Login.vue'
+import Configuration from '../components/Configuration.vue'
+
+
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
+    name: 'login',
+    component: Login
+  },{
+    path: '/configuration',
+    name: 'configuration',
+    component: Configuration
+  },{
+    path: '/dashboard',
     name: 'dashboard',
     component: Dashboard
   },

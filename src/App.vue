@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <div v-if="this.$route.path !== '/'">
     <!-- Sidenav -->
     <nav
       class="sidenav navbar navbar-vertical fixed-left navbar-expand-xs navbar-light bg-white"
@@ -22,7 +23,7 @@
             <!-- Nav items -->
             <ul class="navbar-nav">
               <li class="nav-item">
-                <router-link class="nav-link" to="/">
+                <router-link class="nav-link" to="/dashboard">
                   <i class="ni ni-tv-2 text-primary"></i>
                   <span class="nav-link-text">Tableau de bord</span>
                 </router-link>
@@ -64,7 +65,7 @@
                 </router-link>
               </li>
               <li class="nav-item">
-                <router-link to="/" class="nav-link">
+                <router-link to="/configuration" class="nav-link">
                   <i class="ni ni-send text-dark"></i>
                   <span class="nav-link-text">Parametres</span>
                 </router-link>
@@ -155,8 +156,17 @@
       </div>
 
     </div>
-    <!-- Argon Scripts -->
-    <!-- Core -->
+    </div>
+    
+
+
+
+
+
+    <div v-if="this.$route.path === '/'" >
+     <Login/>
+     </div>
+  
       
   </div>
   
@@ -165,10 +175,12 @@
 <script>
 
 import Headerbar from './components/Headerbar.vue';
+import Login from './components/Login.vue';
 export default {
   name: "App",
   components: {
-     'Headerbar': Headerbar
+     'Headerbar': Headerbar,
+    'Login': Login
     
   },
 };
