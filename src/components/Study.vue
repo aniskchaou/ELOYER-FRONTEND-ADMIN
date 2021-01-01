@@ -18,12 +18,52 @@
                   <tr>
                    <td>cas</td>
                    <td><button class="btn btn-sm btn-success">Attachement</button>
-                   <button class="btn btn-sm btn-primary">Vue</button>
-                   <button class="btn btn-sm btn-warning">Editer</button></td>
+                   <button data-toggle="modal" data-target="#viewCase" class="btn btn-sm btn-primary">Vue</button>
+                   <button data-toggle="modal" data-target="#editerCase" class="btn btn-sm btn-warning">Editer</button></td>
                   </tr>
                  
                 </tbody>
               </table>
+ <button type="button" style="float: left;" class="btn btn-success btn-sm" data-toggle="modal" data-target="#addCaseStudy">Ajouter</button>
+                     <div class="modal fade" id="viewCase" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <ViewCaseStudy/>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+             <div class="modal fade" id="editerCase" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <AddNote/>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
             </div>
             <!-- Card footer -->
             <div class="card-footer py-4">
@@ -51,12 +91,40 @@
                 </ul>
               </nav>
             </div>
+
+              <div class="modal fade" id="addCaseStudy" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <AddCaseStudy/>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
           </div>
 </template>
 
 <script>
+
+import ViewCaseStudy from './ViewCaseStudy.vue';
+import AddCaseStudy from './AddCaseStudy.vue';
 export default {
   name: "Study",
+  components:{'ViewCaseStudy':ViewCaseStudy,'AddCaseStudy':AddCaseStudy},
   props: {},
 };
 </script>

@@ -2,7 +2,7 @@
   <div class="card">
     <!-- Card header -->
     <div class="card-header border-0">
-      <h3 class="mb-0">Contacts</h3>
+      <h3 class="mb-0">Clients</h3>
     </div>
     <!-- Light table -->
     <div class="table-responsive">
@@ -28,30 +28,6 @@
           </tr>
         </tbody>
       </table>
-
-
-       <button type="button" style="float: left;" class="btn btn-success btn-sm" data-toggle="modal" data-target="#addContact">Ajouter</button>
-         <div class="modal fade" id="addContact" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-             <AddContact/>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
     </div>
     <!-- Card footer -->
     <div class="card-footer py-4">
@@ -85,13 +61,8 @@
 </template>
 
 <script>
-import AddContact from './AddContact.vue';
-
 export default {
   name: "Contact",
-  components:{
-   'AddContact':AddContact
-  },
   props: {},
 };
 </script>

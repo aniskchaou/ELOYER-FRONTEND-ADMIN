@@ -9,6 +9,13 @@ import Dashboard from '../components/Dashboard.vue'
 import Document from '../components/Document.vue'
 import Login from '../components/Login.vue'
 import Configuration from '../components/Configuration.vue'
+import FavouriteAffair from '../components/FavouriteAffair.vue'
+import ArchivedAffair from '../components/ArchivedAffair.vue'
+import Court from '../components/Court.vue'
+import Act from '../components/Act.vue'
+import Client from '../components/Client.vue'
+import CategoryAffair from '../components/CategoryAffair.vue'
+import CategoryCourt from '../components/CategoryCourt.vue'
 
 
 Vue.use(VueRouter)
@@ -55,6 +62,42 @@ const routes = [
     path: '/document',
     name: 'document',
     component: Document,
+  },
+  {
+    path: '/favouriteaffair',
+    name: 'favouriteaffair',
+    component: FavouriteAffair,
+  },
+  {
+    path: '/archivedaffair',
+    name: 'archivedaffair',
+    component: ArchivedAffair,
+  }
+  ,
+  {
+    path: '/court',
+    name: 'court',
+    component: Court,
+  },
+  {
+    path: '/categorycourt',
+    name: 'categorycourt',
+    component: CategoryCourt,
+  },
+  {
+    path: '/categoryaffair',
+    name: 'categoryaffair',
+    component: CategoryAffair,
+  },
+  {
+    path: '/client',
+    name: 'client',
+    component: Client,
+  },
+  {
+    path: '/act',
+    name: 'act',
+    component: Act,
   }
 ]
 

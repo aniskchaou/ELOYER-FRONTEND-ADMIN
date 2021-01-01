@@ -1,59 +1,29 @@
 <template>
-      <div class="card">
+        <div class="card">
             <!-- Card header -->
             <div class="card-header border-0">
-              <h3 class="mb-0">Rendez-vous</h3>
+              <h3 class="mb-0">Tribunal</h3>
             </div>
             <!-- Light table -->
             <div class="table-responsive">
               <table class="table align-items-center table-flush">
                 <thead class="thead-light">
                   <tr>
-                    <th scope="col" class="sort" data-sort="name">Titre</th>
-                    <th scope="col" class="sort" data-sort="name">Contact</th>
-                    <th scope="col" class="sort" data-sort="name">Motive</th>
-                    <th scope="col" class="sort" data-sort="name">Date</th>
-                    <th scope="col" class="sort" data-sort="name">Note</th>
+                    <th scope="col" class="sort" data-sort="name">Nom</th>
                     <th scope="col">Actions</th>
                    
                   </tr>
                 </thead>
                 <tbody class="list">
                   <tr>
-                   <td>cout hearing</td>
-                   <td>7657658</td>
-                   <td>test</td>
-                   <td>12/01/2020</td>
-                   <td>test</td>
-                   <td><a href="#" class="btn btn-sm btn-warning">editer</a>
-            <a href="#" class="btn btn-sm btn-danger">supprimer</a>
-            </td>
+                   <td>cas</td>
+                   <td><button  class="btn btn-sm btn-success">Editer</button>
+                   <button class="btn btn-sm btn-warning">Supprimer</button>
+                  </td>
                   </tr>
                  
                 </tbody>
               </table>
-
-
-               <button type="button" style="float: left;" class="btn btn-success btn-sm" data-toggle="modal" data-target="#addRendezvous">Ajouter</button>
-         <div class="modal fade" id="addRendezvous" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-             
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
-        </div>
-      </div>
             </div>
             <!-- Card footer -->
             <div class="card-footer py-4">
@@ -86,7 +56,7 @@
 
 <script>
 export default {
-  name: "Rendezvous",
+  name: "Court",
   props: {},
 };
 </script>

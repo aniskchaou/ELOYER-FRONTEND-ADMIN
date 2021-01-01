@@ -33,7 +33,7 @@
 
                     
         </div>
-        <a href="#" class="btn btn-sm btn-primary">Enregistrer</a>
+        <a href="#" style="float: left;" class="btn btn-sm btn-primary">Enregistrer</a>
         <br><br>
 
 

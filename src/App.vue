@@ -23,51 +23,93 @@
             <!-- Nav items -->
             <ul class="navbar-nav">
               <li class="nav-item">
-                <router-link class="nav-link" to="/dashboard">
+                <router-link active-class="active" class="nav-link" to="/dashboard">
                   <i class="ni ni-tv-2 text-primary"></i>
                   <span class="nav-link-text">Tableau de bord</span>
                 </router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/affair">
+                <router-link active-class="active" class="nav-link" to="/affair">
                   <i class="ni ni-planet text-orange"></i>
                   <span class="nav-link-text">Affairs</span>
                 </router-link>
               </li>
+               <li class="nav-item">
+                <router-link active-class="active" class="nav-link" to="/favouriteaffair">
+                  <i class="ni ni-support-16 text-blue"></i>
+                  <span class="nav-link-text">Affairs favoris</span>
+                </router-link>
+              </li>
+               <li class="nav-item">
+                <router-link active-class="active" class="nav-link" to="/archivedaffair">
+                  <i class="ni ni-tie-bow text-yellow"></i>
+                  <span class="nav-link-text">Affairs Archivés</span>
+                </router-link>
+              </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/document">
-                  <i class="ni ni-pin-3 text-primary"></i>
+                <router-link active-class="active" class="nav-link" to="/document">
+                  <i class="ni ni-paper-diploma text-green"></i>
                   <span class="nav-link-text">Documents</span>
                 </router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/study">
+                <router-link active-class="active" class="nav-link" to="/court">
+                  <i class="ni ni-pin-3 text-primary"></i>
+                  <span class="nav-link-text">Tribunal</span>
+                </router-link>
+              </li>
+              <li class="nav-item">
+                <router-link active-class="active" class="nav-link" to="/study">
                   <i class="ni ni-single-02 text-yellow"></i>
                   <span class="nav-link-text">Etude de cas</span>
                 </router-link>
               </li>
               <li class="nav-item">
-                <router-link to="/task" class="nav-link">
-                  <i class="ni ni-bullet-list-67 text-default"></i>
+                <router-link active-class="active" to="/task" class="nav-link">
+                  <i class="ni ni-map-big text-default"></i>
                   <span class="nav-link-text">Taches</span>
                 </router-link>
               </li>
               <li class="nav-item">
-                <router-link to="/contact" class="nav-link">
-                  <i class="ni ni-key-25 text-info"></i>
+                <router-link active-class="active" to="/contact" class="nav-link">
+                  <i class="ni ni-pin-3 text-info"></i>
                   <span class="nav-link-text">Contacts</span>
                 </router-link>
               </li>
               <li class="nav-item">
-                <router-link to="/rendezvous" class="nav-link">
-                  <i class="ni ni-circle-08 text-pink"></i>
+                <router-link active-class="active" to="/rendezvous" class="nav-link">
+                  <i class="ni ni-circle-08 text-blue"></i>
                   <span class="nav-link-text">Rendez-vous</span>
                 </router-link>
               </li>
               <li class="nav-item">
-                <router-link to="/configuration" class="nav-link">
-                  <i class="ni ni-send text-dark"></i>
-                  <span class="nav-link-text">Parametres</span>
+                <router-link active-class="active" to="/act" class="nav-link">
+                  <i class="ni ni-bold-up text-red"></i>
+                  <span class="nav-link-text">Acte</span>
+                </router-link>
+              </li>
+              <li class="nav-item">
+                <router-link active-class="active" to="/categoryaffair" class="nav-link">
+                  <i class="ni ni-check-bold text-pink"></i>
+                  <span class="nav-link-text">Catégorie de d'affair</span>
+                </router-link>
+              </li>
+              <li class="nav-item">
+                <router-link active-class="active" to="/categorycourt" class="nav-link">
+                  <i class="ni ni-bold text-purple"></i>
+                  <span class="nav-link-text">Catégorie de cour</span>
+                </router-link>
+              </li>
+              <li class="nav-item">
+                <router-link active-class="active" to="/client" class="nav-link">
+                  <i class="ni ni-atom text-yellow"></i>
+                  <span class="nav-link-text">Client</span>
+                </router-link>
+              </li>
+              <li class="nav-item">
+                <router-link active-class="active" to="/configuration" class="nav-link">
+                  <i class="ni ni-air-baloon"></i>
+                  <span class="nav-link-text">Paramètres</span>
                 </router-link>
               </li>
             </ul>
@@ -104,52 +146,11 @@
           <div class="row align-items-center justify-content-lg-between">
             <div class="col-lg-6">
               <div class="copyright text-center text-lg-left text-muted">
-                &copy; 2020
-                <a
-                  href="https://www.creative-tim.com"
-                  class="font-weight-bold ml-1"
-                  target="_blank"
-                  >Creative Tim</a
-                >
+                Developed by <a href="https://github.com/aniskchaou">Anis KCHAOU</a>
               </div>
             </div>
             <div class="col-lg-6">
-              <ul
-                class="nav nav-footer justify-content-center justify-content-lg-end"
-              >
-                <li class="nav-item">
-                  <a
-                    href="https://www.creative-tim.com"
-                    class="nav-link"
-                    target="_blank"
-                    >Creative Tim</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    href="https://www.creative-tim.com/presentation"
-                    class="nav-link"
-                    target="_blank"
-                    >About Us</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    href="http://blog.creative-tim.com"
-                    class="nav-link"
-                    target="_blank"
-                    >Blog</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    href="https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md"
-                    class="nav-link"
-                    target="_blank"
-                    >MIT License</a
-                  >
-                </li>
-              </ul>
+              
             </div>
           </div>
         </footer>

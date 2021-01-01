@@ -4,7 +4,7 @@
     
             
     <div class="card-header border-0">
-      <h3 class="mb-0">Affairs</h3>
+      <h3 class="mb-0">Affairs favouris</h3>
     </div>
     <!-- Light table -->
     <div class="table-responsive">
@@ -222,7 +222,7 @@ import HearingDate from './HearingDate.vue';
 
 import ViewAffair from './ViewAffair.vue';
 export default {
-  name: "Affair",
+  name: "FavouriteAffair",
   components : {
     'AddAffair':AddAffair,
     'ViewAffair':ViewAffair,
