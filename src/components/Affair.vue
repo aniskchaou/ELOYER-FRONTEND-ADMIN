@@ -213,14 +213,14 @@
 </template>
 
 <script>
-import AddAffair from './AddAffair.vue'
-import AddNote from './AddNote.vue';
-import ArchiveAffair from './ArchiveAffair.vue';
-import EditAffair from './EditAffair.vue';
-import Fee from './Fee.vue';
-import HearingDate from './HearingDate.vue';
+import AddAffair from '@/components/AddAffair.vue'
+import AddNote from '@/components/AddNote.vue';
+import ArchiveAffair from '@/components/ArchiveAffair.vue';
+import EditAffair from '@/components/EditAffair.vue';
+import Fee from '@/components/Fee.vue';
+import HearingDate from '@/components/HearingDate.vue';
 
-import ViewAffair from './ViewAffair.vue';
+import ViewAffair from '@/components/ViewAffair.vue';
 export default {
   name: "Affair",
   components : {

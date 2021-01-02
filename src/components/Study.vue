@@ -120,8 +120,8 @@
 
 <script>
 
-import ViewCaseStudy from './ViewCaseStudy.vue';
-import AddCaseStudy from './AddCaseStudy.vue';
+import ViewCaseStudy from '@/components/ViewCaseStudy.vue';
+import AddCaseStudy from '@/components/AddCaseStudy.vue';
 export default {
   name: "Study",
   components:{'ViewCaseStudy':ViewCaseStudy,'AddCaseStudy':AddCaseStudy},

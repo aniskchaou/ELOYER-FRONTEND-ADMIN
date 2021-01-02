@@ -85,7 +85,7 @@
 </template>
 
 <script>
-import AddContact from './AddContact.vue';
+import AddContact from '@/components/AddContact.vue';
 
 export default {
   name: "Contact",
