@@ -1,14 +1,12 @@
 <template>
   <div class="card">
     <!-- Card header -->
-    
-            
+
     <div class="card-header border-0">
       <h3 class="mb-0">Affairs</h3>
     </div>
     <!-- Light table -->
     <div class="table-responsive">
-       
       <table class="table align-items-center table-flush">
         <thead class="thead-light">
           <tr>
@@ -24,162 +22,377 @@
             <td>vol</td>
             <td>Anis</td>
             <td>
-              <a href="#" data-toggle="modal" data-target="#viewAffair" class="btn btn-sm btn-primary"><span class="glyphicon glyphicon-trash"></span> voir</a>
-              <a href="#" data-toggle="modal" data-target="#fee" class="btn btn-sm btn-info"><span class="glyphicon glyphicon-trash"></span> honoraires</a>
-              <a href="#" data-toggle="modal" data-target="#archiveAffair" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-trash"></span> archiver</a>
-              <a href="#" data-toggle="modal" data-target="#addNote" class="btn btn-sm btn-success"><span class="glyphicon glyphicon-trash"></span> remarques</a>
-               <a href="#" data-toggle="modal" data-target="#hearingDate" class="btn btn-sm btn-warning"><span class="glyphicon glyphicon-trash"></span> date d'audiance</a>
-                <a href="#" data-toggle="modal" data-target="#editAffair" class="btn btn-sm btn-danger"><span class="glyphicon glyphicon-trash"></span> editer</a>
-            
+              <a
+                href="#"
+                data-toggle="modal"
+                data-target="#viewAffair"
+                class="btn btn-sm btn-primary"
+                ><span class="glyphicon glyphicon-trash"></span> voir</a
+              >
+              <a
+                href="#"
+                data-toggle="modal"
+                data-target="#fee"
+                class="btn btn-sm btn-info"
+                ><span class="glyphicon glyphicon-trash"></span> honoraires</a
+              >
+              <a
+                href="#"
+                data-toggle="modal"
+                data-target="#archiveAffair"
+                class="btn btn-sm btn-default"
+                ><span class="glyphicon glyphicon-trash"></span> archiver</a
+              >
+              <a
+                href="#"
+                data-toggle="modal"
+                data-target="#addNote"
+                class="btn btn-sm btn-success"
+                ><span class="glyphicon glyphicon-trash"></span> remarques</a
+              >
+              <a
+                href="#"
+                data-toggle="modal"
+                data-target="#hearingDate"
+                class="btn btn-sm btn-warning"
+                ><span class="glyphicon glyphicon-trash"></span> date
+                d'audiance</a
+              >
+              <a
+                href="#"
+                data-toggle="modal"
+                data-target="#editAffair"
+                class="btn btn-sm btn-danger"
+                ><span class="glyphicon glyphicon-trash"></span> editer</a
+              >
             </td>
           </tr>
         </tbody>
       </table>
 
-        <button type="button" style="float: left;" class="btn btn-success btn-sm" data-toggle="modal" data-target="#addAffair">Ajouter</button>
- <div class="modal fade" id="addAffair" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <button
+        type="button"
+        style="float: left"
+        class="btn btn-success btn-sm"
+        data-toggle="modal"
+        data-target="#addAffair"
+      >
+        Ajouter
+      </button>
+      <div
+        class="modal fade"
+        id="addAffair"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog modal-dialog-centered modal-lg"
+          role="document"
+        >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <h5 class="modal-title" id="exampleModalLongTitle">
+                Modal title
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-             <AddAffair/>
+              <AddAffair />
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
             </div>
           </div>
         </div>
       </div>
 
-
- <div class="modal fade" id="viewAffair" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div
+        class="modal fade"
+        id="viewAffair"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog modal-dialog-centered modal-lg"
+          role="document"
+        >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <h5 class="modal-title" id="exampleModalLongTitle">
+                Modal title
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-             <ViewAffair/>
+              <ViewAffair />
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
             </div>
           </div>
         </div>
       </div>
 
-    
- <div class="modal fade" id="fee" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div
+        class="modal fade"
+        id="fee"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog modal-dialog-centered modal-lg"
+          role="document"
+        >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <h5 class="modal-title" id="exampleModalLongTitle">
+                Modal title
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-             <Fee/>
+              <Fee />
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
             </div>
           </div>
         </div>
       </div>
 
- <div class="modal fade" id="archiveAffair" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div
+        class="modal fade"
+        id="archiveAffair"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog modal-dialog-centered modal-lg"
+          role="document"
+        >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <h5 class="modal-title" id="exampleModalLongTitle">
+                Modal title
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-             <ArchiveAffair/>
+              <ArchiveAffair />
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
             </div>
           </div>
         </div>
       </div>
 
- <div class="modal fade" id="editAffair" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div
+        class="modal fade"
+        id="editAffair"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog modal-dialog-centered modal-lg"
+          role="document"
+        >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <h5 class="modal-title" id="exampleModalLongTitle">
+                Modal title
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-             <EditAffair/>
+              <EditAffair />
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
             </div>
           </div>
         </div>
       </div>
 
-       <div class="modal fade" id="hearingDate" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div
+        class="modal fade"
+        id="hearingDate"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog modal-dialog-centered modal-lg"
+          role="document"
+        >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <h5 class="modal-title" id="exampleModalLongTitle">
+                Modal title
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-             <HearingDate/>
+              <HearingDate />
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
             </div>
           </div>
         </div>
       </div>
 
-
-       <div class="modal fade" id="addNote" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div
+        class="modal fade"
+        id="addNote"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog modal-dialog-centered modal-lg"
+          role="document"
+        >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <h5 class="modal-title" id="exampleModalLongTitle">
+                Modal title
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-             <AddNote/>
+              <AddNote />
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
             </div>
           </div>
         </div>
       </div>
-
     </div>
     <!-- Card footer -->
     <div class="card-footer py-4">
@@ -213,25 +426,24 @@
 </template>
 
 <script>
-import AddAffair from '@/components/AddAffair.vue'
-import AddNote from '@/components/AddNote.vue';
-import ArchiveAffair from '@/components/ArchiveAffair.vue';
-import EditAffair from '@/components/EditAffair.vue';
-import Fee from '@/components/Fee.vue';
-import HearingDate from '@/components/HearingDate.vue';
+import AddAffair from "@/components/AddAffair.vue";
+import AddNote from "@/components/AddNote.vue";
+import ArchiveAffair from "@/components/ArchiveAffair.vue";
+import EditAffair from "@/components/EditAffair.vue";
+import Fee from "@/components/Fee.vue";
+import HearingDate from "@/components/HearingDate.vue";
 
-import ViewAffair from '@/components/ViewAffair.vue';
+import ViewAffair from "@/components/ViewAffair.vue";
 export default {
   name: "Affair",
-  components : {
-    'AddAffair':AddAffair,
-    'ViewAffair':ViewAffair,
-    'Fee':Fee,
-    'ArchiveAffair':ArchiveAffair,
-    'EditAffair':EditAffair,
-    'HearingDate':HearingDate,
-    'AddNote':AddNote,
-    
+  components: {
+    AddAffair: AddAffair,
+    ViewAffair: ViewAffair,
+    Fee: Fee,
+    ArchiveAffair: ArchiveAffair,
+    EditAffair: EditAffair,
+    HearingDate: HearingDate,
+    AddNote: AddNote,
   },
   props: {},
 };

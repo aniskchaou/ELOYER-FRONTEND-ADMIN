@@ -50,13 +50,11 @@
                 class="btn btn-sm btn-success"
                 ><span class="glyphicon glyphicon-trash"></span> remarques</a
               >
-           
             </td>
           </tr>
         </tbody>
       </table>
 
-    
       <div
         class="modal fade"
         id="addAffair"
