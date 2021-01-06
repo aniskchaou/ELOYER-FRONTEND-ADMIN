@@ -1,24 +1,12 @@
-# my-app-vue
+# ELoyer
 
-## Project setup
-```
-npm install
-```
+Eloyer is a web application to help lawyers manage their clients' cases.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Informations:
+- Status: under development
+- Lastest version: 1.0
+- Sector: service
+- Created: November 2020
+- Last updated: November 2020
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
