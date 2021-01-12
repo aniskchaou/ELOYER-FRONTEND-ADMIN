@@ -1665,7 +1665,7 @@
 
 <script>
 export default {
-  name: "AddAffair",
+  name: "AddPayment",
   props: {},
 };
 </script>

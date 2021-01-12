@@ -192,7 +192,7 @@ export default {
 @import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700";
 @import "assets/nucleo/css/nucleo.css";
 @import "assets/fontawesome-free/css/all.min.css";
-@import "assets/css/argon.css?v=1.2.0";
+@import "assets/css/argon.css";
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

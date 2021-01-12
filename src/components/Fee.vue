@@ -1666,6 +1666,9 @@
 <script>
 export default {
   name: "Fee",
+  mounted() {
+  
+  },
   props: {},
 };
 </script>

@@ -239,7 +239,7 @@
 
 <script>
 export default {
-  name: "AddAffair",
+  name: "AddClient",
   props: {},
 };
 </script>

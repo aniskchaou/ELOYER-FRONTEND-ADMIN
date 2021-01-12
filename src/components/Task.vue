@@ -23,13 +23,115 @@
             <td>12/08/2020</td>
             <td>Anis</td>
             <td>
-              <button class="btn btn-sm btn-success">Editer</button>
+              <button  data-toggle="modal" data-target="#editTask" class="btn btn-sm btn-success">Editer</button>
               <button class="btn btn-sm btn-warning">Supprimer</button>
-              <button class="btn btn-sm btn-danger">Commenter</button>
+             
             </td>
           </tr>
         </tbody>
       </table>
+
+        <button
+        type="button"
+        style="float: left"
+        class="btn btn-success btn-sm"
+        data-toggle="modal"
+        data-target="#addAffair"
+      >
+        Ajouter
+      </button>
+      <div
+        class="modal fade"
+        id="addAffair"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog modal-dialog-centered modal-lg"
+          role="document"
+        >
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">
+                Modal title
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <AddTask />
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div
+        class="modal fade"
+        id="editTask"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog modal-dialog-centered modal-lg"
+          role="document"
+        >
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">
+                Modal title
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <EditTask />
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     </div>
     <!-- Card footer -->
     <div class="card-footer py-4">
@@ -63,8 +165,15 @@
 </template>
 
 <script>
+
+import AddTask from './AddTask.vue';
+import EditTask from './EditTask.vue';
 export default {
   name: "Task",
+  components:{
+    "AddTask":AddTask,
+    "EditTask":EditTask
+  },
   props: {},
 };
 </script>

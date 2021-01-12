@@ -25,7 +25,7 @@
             <td>12/01/2020</td>
             <td>test</td>
             <td>
-              <a href="#" class="btn btn-sm btn-warning">editer</a>
+              
               <a href="#" class="btn btn-sm btn-danger">supprimer</a>
             </td>
           </tr>
@@ -67,7 +67,9 @@
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="modal-body"></div>
+            <div class="modal-body">
+              <AddRendezvous/>
+            </div>
             <div class="modal-footer">
               <button
                 type="button"
@@ -116,8 +118,37 @@
 </template>
 
 <script>
+import AddRendezvous from './AddRendezvous.vue';
 export default {
   name: "Rendezvous",
+  components:{
+    "AddRendezvous":AddRendezvous
+  },
+  mounted() {
+   //An array of assets
+    let scripts = [
+        
+      { src: "https://code.jquery.com/jquery-2.2.4.min.js" },
+        { src: "https://cdn.datatables.net/v/dt/b-1.6.5/b-flash-1.6.5/b-html5-1.6.5/datatables.min.js" },
+        { src: "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js" },
+        { src: "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js" },
+        { src: "https://cdn.datatables.net/v/dt/dt-1.10.23/b-1.6.5/b-colvis-1.6.5/b-html5-1.6.5/datatables.min.js" },
+        { src: "https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.10.23/b-1.6.5/b-html5-1.6.5/b-print-1.6.5/datatables.min.js" },
+        { src: "js/init.js" }
+    ]
+    //Append the script element on each iteration
+    
+       
+        for (let i = 0; i < scripts.length; i++) {
+          const node = document.createElement('script');
+          node.src = scripts[i].src;
+          node.type = 'application/javascript';
+          node.async = false;
+          node.charset = 'utf-8';
+          document.body.appendChild(node);
+          console.log(i)
+        }  
+  },
   props: {},
 };
 </script>

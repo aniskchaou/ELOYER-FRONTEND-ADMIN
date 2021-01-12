@@ -58,7 +58,7 @@
 
 <script>
 export default {
-  name: "AddAffair",
+  name: "AddDocument",
   props: {},
 };
 </script>

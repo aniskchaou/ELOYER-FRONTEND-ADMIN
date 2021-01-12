@@ -308,6 +308,8 @@
 <script>
 export default {
   name: "HearingDate",
+  mounted() {
+  },
   props: {},
 };
 </script>
