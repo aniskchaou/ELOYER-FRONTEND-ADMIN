@@ -18,15 +18,24 @@
         </thead>
         <tbody class="list">
           <tr>
-            <td>Anis</td>
-            <td>7657658</td>
-            <td>anis@gmail.com</td>
-            <td>lhlllh</td>
+            <td>Gano Fongemie</td>
+            <td>01.71.55.16.43</td>
+            <td>GanoFongemie@jourrapide.com</td>
+            <td>13, boulevard d'Alsace 78140 VÉLIZY</td>
             <td><a href="#" data-toggle="modal" data-target="#editContact" class="btn btn-sm btn-warning">editer</a>
             <a href="#" class="btn btn-sm btn-danger">supprimer</a>
             </td>
           </tr>
         </tbody>
+        <tfoot class="thead-light">
+          <tr>
+            <th scope="col" class="sort" data-sort="name">Nom</th>
+            <th scope="col" class="sort" data-sort="name">Téléphone</th>
+            <th scope="col" class="sort" data-sort="name">Email</th>
+            <th scope="col" class="sort" data-sort="name">Adreess</th>
+            <th scope="col">Actions</th>
+          </tr>
+        </tfoot>
       </table>
 
 
@@ -52,7 +61,7 @@
       </div>
 
 
-       <button type="button" style="float: left;" class="btn btn-success btn-sm" data-toggle="modal" data-target="#editContact">Ajouter</button>
+      
          <div class="modal fade" id="editContact" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
           <div class="modal-content">
@@ -76,33 +85,7 @@
 
     </div>
     <!-- Card footer -->
-    <div class="card-footer py-4">
-      <nav aria-label="...">
-        <ul class="pagination justify-content-end mb-0">
-          <li class="page-item disabled">
-            <a class="page-link" href="#" tabindex="-1">
-              <i class="fas fa-angle-left"></i>
-              <span class="sr-only">Previous</span>
-            </a>
-          </li>
-          <li class="page-item active">
-            <a class="page-link" href="#">1</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="#"
-              >2 <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item">
-            <a class="page-link" href="#">
-              <i class="fas fa-angle-right"></i>
-              <span class="sr-only">Next</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+
   </div>
 </template>
 

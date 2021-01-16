@@ -18,9 +18,60 @@
         </thead>
         <tbody class="list">
           <tr>
-            <td>2323/2020</td>
-            <td>vol</td>
-            <td>Anis</td>
+            <td>8786-9799</td>
+            <td>menace de mort - Varieur</td>
+            <td>Yvon Varieur</td>
+            <td>
+              <a
+                href="#"
+                data-toggle="modal"
+                data-target="#viewAffair"
+                class="btn btn-sm btn-primary"
+                ><span class="glyphicon glyphicon-trash"></span> voir</a
+              >
+              <a
+                href="#"
+                data-toggle="modal"
+                data-target="#fee"
+                class="btn btn-sm btn-info"
+                ><span class="glyphicon glyphicon-trash"></span> honoraires</a
+              >
+              <a
+                href="#"
+                data-toggle="modal"
+                data-target="#archiveAffair"
+                class="btn btn-sm btn-default"
+                ><span class="glyphicon glyphicon-trash"></span> archiver</a
+              >
+              <a
+                href="#"
+                data-toggle="modal"
+                data-target="#addNote"
+                class="btn btn-sm btn-success"
+                ><span class="glyphicon glyphicon-trash"></span> remarques</a
+              >
+              <a
+                href="#"
+                data-toggle="modal"
+                data-target="#hearingDate"
+                class="btn btn-sm btn-warning"
+                ><span class="glyphicon glyphicon-trash"></span> date
+                d'audiance</a
+              >
+              <a
+                href="#"
+                data-toggle="modal"
+                data-target="#editAffair"
+                class="btn btn-sm btn-danger"
+                ><span class="glyphicon glyphicon-trash"></span> editer</a
+              >
+            </td>
+          </tr>
+
+           <tr>
+            <td>4343-4433</td>
+            <td>Méfait et fraude - Grimard</td>
+            <td>Evrard Grimard</td>
             <td>
               <a
                 href="#"
@@ -68,6 +119,14 @@
             </td>
           </tr>
         </tbody>
+         <tfoot class="thead-light">
+          <tr>
+            <th scope="col" class="sort" data-sort="name">No</th>
+            <th scope="col" class="sort" data-sort="budget">Titre</th>
+            <th scope="col" class="sort" data-sort="status">Client</th>
+            <th scope="col">Actions</th>
+          </tr>
+         </tfoot>
       </table>
 
       <button
@@ -395,33 +454,7 @@
       </div>
     </div>
     <!-- Card footer -->
-    <div class="card-footer py-4">
-      <nav aria-label="...">
-        <ul class="pagination justify-content-end mb-0">
-          <li class="page-item disabled">
-            <a class="page-link" href="#" tabindex="-1">
-              <i class="fas fa-angle-left"></i>
-              <span class="sr-only">Previous</span>
-            </a>
-          </li>
-          <li class="page-item active">
-            <a class="page-link" href="#">1</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="#"
-              >2 <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item">
-            <a class="page-link" href="#">
-              <i class="fas fa-angle-right"></i>
-              <span class="sr-only">Next</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+  
   </div>
 </template>
 
@@ -446,29 +479,42 @@ export default {
     AddNote: AddNote,
   },
   mounted() {
-   //An array of assets
+    //An array of assets
     let scripts = [
-        
       { src: "https://code.jquery.com/jquery-2.2.4.min.js" },
-        { src: "https://cdn.datatables.net/v/dt/b-1.6.5/b-flash-1.6.5/b-html5-1.6.5/datatables.min.js" },
-        { src: "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js" },
-        { src: "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js" },
-        { src: "https://cdn.datatables.net/v/dt/dt-1.10.23/b-1.6.5/b-colvis-1.6.5/b-html5-1.6.5/datatables.min.js" },
-        { src: "https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.10.23/b-1.6.5/b-html5-1.6.5/b-print-1.6.5/datatables.min.js" },
-        { src: "js/init.js" }
-    ]
+      {
+        src:
+          "https://cdn.datatables.net/v/dt/b-1.6.5/b-flash-1.6.5/b-html5-1.6.5/datatables.min.js",
+      },
+      {
+        src:
+          "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js",
+      },
+      {
+        src:
+          "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js",
+      },
+      {
+        src:
+          "https://cdn.datatables.net/v/dt/dt-1.10.23/b-1.6.5/b-colvis-1.6.5/b-html5-1.6.5/datatables.min.js",
+      },
+      {
+        src:
+          "https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.10.23/b-1.6.5/b-html5-1.6.5/b-print-1.6.5/datatables.min.js",
+      },
+      { src: "js/init.js" },
+    ];
     //Append the script element on each iteration
-    
-       
-        for (let i = 0; i < scripts.length; i++) {
-          const node = document.createElement('script');
-          node.src = scripts[i].src;
-          node.type = 'application/javascript';
-          node.async = false;
-          node.charset = 'utf-8';
-          document.getElementById('app').appendChild(node);
-          console.log(i)
-        }  
+
+    for (let i = 0; i < scripts.length; i++) {
+      const node = document.createElement("script");
+      node.src = scripts[i].src;
+      node.type = "application/javascript";
+      node.async = false;
+      node.charset = "utf-8";
+      document.getElementById("app").appendChild(node);
+      console.log(i);
+    }
   },
   props: {},
 };

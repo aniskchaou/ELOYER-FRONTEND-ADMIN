@@ -19,8 +19,8 @@
         </thead>
         <tbody class="list">
           <tr>
-            <td>cout hearing</td>
-            <td>7657658</td>
+            <td>Rendez vous - Kerman Roussel</td>
+            <td>04.76.88.59.72</td>
             <td>test</td>
             <td>12/01/2020</td>
             <td>test</td>
@@ -30,6 +30,16 @@
             </td>
           </tr>
         </tbody>
+         <tfoot class="thead-light">
+          <tr>
+            <th scope="col" class="sort" data-sort="name">Titre</th>
+            <th scope="col" class="sort" data-sort="name">Contact</th>
+            <th scope="col" class="sort" data-sort="name">Motive</th>
+            <th scope="col" class="sort" data-sort="name">Date</th>
+            <th scope="col" class="sort" data-sort="name">Note</th>
+            <th scope="col">Actions</th>
+          </tr>
+         </tfoot>
       </table>
 
       <button
@@ -87,33 +97,7 @@
       </div>
     </div>
     <!-- Card footer -->
-    <div class="card-footer py-4">
-      <nav aria-label="...">
-        <ul class="pagination justify-content-end mb-0">
-          <li class="page-item disabled">
-            <a class="page-link" href="#" tabindex="-1">
-              <i class="fas fa-angle-left"></i>
-              <span class="sr-only">Previous</span>
-            </a>
-          </li>
-          <li class="page-item active">
-            <a class="page-link" href="#">1</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="#"
-              >2 <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item">
-            <a class="page-link" href="#">
-              <i class="fas fa-angle-right"></i>
-              <span class="sr-only">Next</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+
   </div>
 </template>
 

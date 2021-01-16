@@ -90,80 +90,9 @@
       
       
    <div class="row">
-        <div class="col-xl-8">
-          <div class="card">
-            <div class="card-header border-0">
-              <div class="row align-items-center">
-                <div class="col">
-                  <h3 class="mb-0">Affairs</h3>
-                </div>
-                <div class="col text-right">
-                  <router-link class="btn btn-sm btn-primary" to="/affair">See all</router-link>
-                </div>
-              </div>
-            </div>
-            <div class="table-responsive">
-              <!-- Projects table -->
-              <table class="table align-items-center table-flush">
-        <thead class="thead-light">
-          <tr>
-            <th scope="col" class="sort" data-sort="name">No</th>
-            <th scope="col" class="sort" data-sort="budget">Titre</th>
-            <th scope="col" class="sort" data-sort="status">Client</th>
-            <th scope="col">Actions</th>
-          </tr>
-        </thead>
-        <tbody class="list">
-          <tr>
-            <td>2323/2020</td>
-            <td>vol</td>
-            <td>Anis</td>
-            <td>
-              <a href="#" data-toggle="modal" data-target="#viewAffair" class="btn btn-sm btn-primary"><span class="glyphicon glyphicon-trash"></span> voir</a>
-   
-            
-            </td>
-          </tr>
-        </tbody>
-      </table>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4">
-          <div class="card">
-            <div class="card-header border-0">
-              <div class="row align-items-center">
-                <div class="col">
-                  <h3 class="mb-0">Taches</h3>
-                </div>
-                <div class="col text-right">
-                  <router-link class="btn btn-sm btn-primary" to="/task">See all</router-link>
-                </div>
-              </div>
-            </div>
-            <div class="table-responsive">
-              <!-- Projects table -->
-                  <table class="table align-items-center table-flush">
-                <thead class="thead-light">
-                  <tr>
-                    <th scope="col" class="sort" data-sort="name">Nom</th>
-                    <th scope="col" class="sort" data-sort="name">Priorité</th>
-                   
-                    
-                   
-                  </tr>
-                </thead>
-                <tbody class="list">
-                  <tr>
-                   <td>cas</td>
-                   <td>urgent</td>
-                   
-                  </tr>
-                 
-                </tbody>
-              </table>
-            </div>
-          </div>
+       
+        <div class="col-md-12">
+         <Rendezvous/>
         </div>
       </div>
 
@@ -172,8 +101,15 @@
 </template>
 
 <script>
+import Rendezvous from '@/components/Rendezvous';
+
 export default {
   name: "Dashboard",
+   components: {
+    Rendezvous: Rendezvous
+    
+   
+  },
   props: {},
 };
 </script>
