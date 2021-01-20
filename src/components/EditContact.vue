@@ -2,7 +2,7 @@
   <div class="box-body">
     <div class="form-group">
       <div class="row">
-        <div class="col-md-4">
+        <div class=" col-md-12">
           <label for="name" style="clear: both"> Title</label>
           <input type="text" name="title" value="" class="form-control" />
         </div>
@@ -11,12 +11,12 @@
 
     <div class="form-group">
       <div class="row">
-        <div class="col-md-4">
+        <div class=" col-md-12">
           <label for="name" style="clear: both">Contact</label>
           <select
             name="contact_id"
             class="form-control chzn"
-            style="display: none"
+             
           >
             <option value="">--Select Contact--</option>
             <option value="23">Vinmart</option>
@@ -32,26 +32,15 @@
             style="width: 456px"
             title=""
           >
-            <a class="chosen-single" tabindex="-1"
-              ><span>--Select Contact--</span>
-              <div><b></b></div
-            ></a>
-            <div class="chosen-drop">
-              <div class="chosen-search">
-                <input type="text" autocomplete="off" />
-              </div>
-              <ul class="chosen-results"></ul>
-            </div>
+            
           </div>
         </div>
-        <a href="#myModal" data-toggle="modal" class="btn btn-default margin"
-          ><i class="fa fa-plus"></i> Add New Contact</a
-        >
+       
       </div>
     </div>
     <div class="form-group">
       <div class="row">
-        <div class="col-md-4">
+        <div class=" col-md-12">
           <label for="name" style="clear: both">Motive</label>
           <textarea name="motive" class="form-control"></textarea>
         </div>
@@ -60,7 +49,7 @@
 
     <div class="form-group">
       <div class="row">
-        <div class="col-md-4">
+        <div class=" col-md-12">
           <label for="name" style="clear: both">Date</label>
           <input
             type="text"
@@ -74,7 +63,7 @@
 
     <div class="form-group">
       <div class="row">
-        <div class="col-md-4">
+        <div class=" col-md-12">
           <label for="name" style="clear: both">Notes</label>
           <textarea name="notes" class="form-control"></textarea>
         </div>

@@ -79,16 +79,14 @@
               <AddTask />
             </div>
             <div class="modal-footer">
-              <button
+                <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
-                Close
+                Fermer
               </button>
-              <button type="button" class="btn btn-primary">
-                Save changes
-              </button>
+               
             </div>
           </div>
         </div>
@@ -125,16 +123,14 @@
               <EditTask />
             </div>
             <div class="modal-footer">
-              <button
+                <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
-                Close
+                Fermer
               </button>
-              <button type="button" class="btn btn-primary">
-                Save changes
-              </button>
+               
             </div>
           </div>
         </div>

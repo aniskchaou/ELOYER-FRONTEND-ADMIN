@@ -1,6 +1,6 @@
 <template>
-  <form
-    action="http://advocate.webappsdemo.in/admin/cases/add"
+ <form
+    
     method="post"
     accept-charset="utf-8"
     enctype="multipart/form-data"
@@ -15,7 +15,7 @@
               ></b
             >
           </div>
-          <div class="col-md-4">
+          <div class="col-md-12">
             <input type="text" name="title" class="form-control" value="" />
           </div>
         </div>
@@ -30,7 +30,7 @@
               ></b
             >
           </div>
-          <div class="col-md-4">
+          <div class="col-md-12">
             <input type="text" name="case_no" class="form-control" value="" />
           </div>
         </div>
@@ -38,7 +38,7 @@
 
       <div class="form-group">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-12">
             <b
               ><font style="vertical-align: inherit"
                 ><font style="vertical-align: inherit"
@@ -47,12 +47,12 @@
               ></b
             >
           </div>
-          <div class="col-md-7">
+          <div class="col-md-12">
             <div class="input-group">
               <select
                 name="client_id"
                 class="form-control chzn"
-                style="display: none"
+                  
               >
                 <option value="">--Select Client--</option>
               </select>
@@ -61,33 +61,10 @@
                 style="width: 278px"
                 title=""
               >
-                <a class="chosen-single" tabindex="-1"
-                  ><span
-                    ><font style="vertical-align: inherit"
-                      ><font style="vertical-align: inherit"
-                        >--Sélectionnez le client--</font
-                      ></font
-                    ></span
-                  >
-                  <div><b></b></div
-                ></a>
-                <div class="chosen-drop">
-                  <div class="chosen-search">
-                    <input type="text" autocomplete="off" />
-                  </div>
-                  <ul class="chosen-results"></ul>
-                </div>
+           
               </div>
               <span
-                ><a
-                  href="#myModal"
-                  data-toggle="modal"
-                  class="btn bg-olive btn-flat margin"
-                  ><font style="vertical-align: inherit"
-                    ><font style="vertical-align: inherit"
-                      >Ajouter un nouveau client</font
-                    ></font
-                  ></a
+                >
                 ></span
               >
             </div>
@@ -105,12 +82,12 @@
               ></b
             >
           </div>
-          <div class="col-md-4" id="location_result">
+          <div class="col-md-12" id="location_result">
             <select
               name="location_id"
               id="location_id"
               class="chzn col-md-12"
-              style="display: none"
+                
             >
               <option value="">--Select Location--</option>
               <option value="34">fsd</option>
@@ -122,22 +99,7 @@
               title=""
               id="location_id_chosen"
             >
-              <a class="chosen-single" tabindex="-1"
-                ><span
-                  ><font style="vertical-align: inherit"
-                    ><font style="vertical-align: inherit"
-                      >--Sélectionnez l'emplacement--</font
-                    ></font
-                  ></span
-                >
-                <div><b></b></div
-              ></a>
-              <div class="chosen-drop">
-                <div class="chosen-search">
-                  <input type="text" autocomplete="off" />
-                </div>
-                <ul class="chosen-results"></ul>
-              </div>
+             
             </div>
           </div>
         </div>
@@ -154,13 +116,13 @@
               ></b
             >
           </div>
-          <div class="col-md-4" id="court_category_result">
+          <div class="col-md-12" id="court_category_result">
             <select
               name="court_category_id"
               id="court_category_id"
               class="chzn col-md-12"
               disabled="disabled"
-              style="display: none"
+                
             >
               <option value="">--Select Court Category--</option>
               <option value="16">High Court</option>
@@ -180,22 +142,7 @@
               title=""
               id="court_category_id_chosen"
             >
-              <a class="chosen-single" tabindex="-1"
-                ><span
-                  ><font style="vertical-align: inherit"
-                    ><font style="vertical-align: inherit"
-                      >--Sélectionnez la catégorie de tribunal--</font
-                    ></font
-                  ></span
-                >
-                <div><b></b></div
-              ></a>
-              <div class="chosen-drop">
-                <div class="chosen-search">
-                  <input type="text" autocomplete="off" disabled="" />
-                </div>
-                <ul class="chosen-results"></ul>
-              </div>
+             
             </div>
           </div>
         </div>
@@ -210,13 +157,13 @@
               ></b
             >
           </div>
-          <div class="col-md-4" id="court_result">
+          <div class="col-md-12" id="court_result">
             <select
               name="court_id"
               id="court_id"
               disabled="disabled"
               class="chzn col-md-12"
-              style="display: none"
+                
             >
               <option value="">--Select Court--</option>
               <option value="6">كتابة العدل الأولى</option>
@@ -231,22 +178,7 @@
               title=""
               id="court_id_chosen"
             >
-              <a class="chosen-single" tabindex="-1"
-                ><span
-                  ><font style="vertical-align: inherit"
-                    ><font style="vertical-align: inherit"
-                      >--Sélectionnez la cour--</font
-                    ></font
-                  ></span
-                >
-                <div><b></b></div
-              ></a>
-              <div class="chosen-drop">
-                <div class="chosen-search">
-                  <input type="text" autocomplete="off" disabled="" />
-                </div>
-                <ul class="chosen-results"></ul>
-              </div>
+           
             </div>
           </div>
         </div>
@@ -263,29 +195,19 @@
               ></b
             >
           </div>
-          <div class="col-md-4">
+          <div class="col-md-12">
             <select
               name="case_category_id[]"
               class="chzn col-md-12"
               multiple="multiple"
-              style="display: none"
+                
             ></select>
             <div
               class="chosen-container chosen-container-multi"
               style="width: 449px"
               title=""
             >
-              <ul class="chosen-choices">
-                <li class="search-field">
-                  <input
-                    type="text"
-                    value="Select Some Options"
-                    class="default"
-                    autocomplete="off"
-                    style="width: 138px"
-                  />
-                </li>
-              </ul>
+              
               <div class="chosen-drop"><ul class="chosen-results"></ul></div>
             </div>
           </div>
@@ -301,11 +223,11 @@
               ></b
             >
           </div>
-          <div class="col-md-4">
+          <div class="col-md-12">
             <select
               name="case_stage_id"
               class="chzn col-md-12"
-              style="display: none"
+                
             >
               <option value="">--Select Case Stage--</option>
               <option value="6">Rahul</option>
@@ -325,22 +247,7 @@
               style="width: 449px"
               title=""
             >
-              <a class="chosen-single" tabindex="-1"
-                ><span
-                  ><font style="vertical-align: inherit"
-                    ><font style="vertical-align: inherit"
-                      >--Sélectionnez l'étape de cas--</font
-                    ></font
-                  ></span
-                >
-                <div><b></b></div
-              ></a>
-              <div class="chosen-drop">
-                <div class="chosen-search">
-                  <input type="text" autocomplete="off" />
-                </div>
-                <ul class="chosen-results"></ul>
-              </div>
+             
             </div>
           </div>
         </div>
@@ -355,12 +262,12 @@
               ></b
             >
           </div>
-          <div class="col-md-4">
+          <div class="col-md-12">
             <select
               name="act_id[]"
               class="chzn col-md-12"
               multiple="multiple"
-              style="display: none"
+                
             >
               <option value="1">444</option>
               <option value="3">33</option>
@@ -374,17 +281,7 @@
               style="width: 449px"
               title=""
             >
-              <ul class="chosen-choices">
-                <li class="search-field">
-                  <input
-                    type="text"
-                    value="Select Some Options"
-                    class="default"
-                    autocomplete="off"
-                    style="width: 138px"
-                  />
-                </li>
-              </ul>
+              
               <div class="chosen-drop"><ul class="chosen-results"></ul></div>
             </div>
           </div>
@@ -402,7 +299,7 @@
               ></b
             >
           </div>
-          <div class="col-md-4">
+          <div class="col-md-12">
             <textarea name="description" class="form-control"></textarea>
           </div>
         </div>
@@ -419,7 +316,7 @@
               ></b
             >
           </div>
-          <div class="col-md-4">
+          <div class="col-md-12">
             <input
               type="text"
               name="start_date"
@@ -441,7 +338,7 @@
               ></b
             >
           </div>
-          <div class="col-md-4">
+          <div class="col-md-12">
             <input
               type="text"
               name="hearing_date"
@@ -463,7 +360,7 @@
               ></b
             >
           </div>
-          <div class="col-md-4">
+          <div class="col-md-12">
             <input type="text" name="o_lawyer" value="" class="form-control" />
           </div>
         </div>
@@ -480,73 +377,15 @@
               ></b
             >
           </div>
-          <div class="col-md-4">
+          <div class="col-md-12">
             <input type="text" name="fees" value="" class="form-control" />
           </div>
         </div>
       </div>
 
-      <div class="form-group">
-        <div class="row">
-          <div class="col-md-3">
-            <label for="contact" style="clear: both"
-              ><font style="vertical-align: inherit"
-                ><font style="vertical-align: inherit">Intimé</font></font
-              ></label
-            >
-          </div>
-          <div class="col-md-4">
-            <input
-              type="text"
-              class="form-control"
-              name="reply[208]"
-              id="req_doc"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="row">
-          <div class="col-md-3">
-            <label for="contact" style="clear: both"
-              ><font style="vertical-align: inherit"
-                ><font style="vertical-align: inherit"
-                  >Mobile client</font
-                ></font
-              ></label
-            >
-          </div>
-          <div class="col-md-4">
-            <input
-              type="text"
-              class="form-control"
-              name="reply[214]"
-              id="req_doc"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="row">
-          <div class="col-md-3">
-            <label for="contact" style="clear: both"
-              ><font style="vertical-align: inherit"
-                ><font style="vertical-align: inherit"
-                  >PREMIÈRE tranche</font
-                ></font
-              ></label
-            >
-          </div>
-          <div class="col-md-4">
-            <input
-              type="text"
-              class="form-control"
-              name="reply[218]"
-              id="req_doc"
-            />
-          </div>
-        </div>
-      </div>
+   
+      
+     
     </div>
     <!-- /.box-body -->
 

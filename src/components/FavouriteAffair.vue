@@ -129,15 +129,7 @@
          </tfoot>
       </table>
 
-      <button
-        type="button"
-        style="float: left"
-        class="btn btn-success btn-sm"
-        data-toggle="modal"
-        data-target="#addAffair"
-      >
-        Ajouter
-      </button>
+     
       <div
         class="modal fade"
         id="addAffair"
@@ -168,16 +160,14 @@
               <AddAffair />
             </div>
             <div class="modal-footer">
-              <button
+                <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
-                Close
+                Fermer
               </button>
-              <button type="button" class="btn btn-primary">
-                Save changes
-              </button>
+               
             </div>
           </div>
         </div>
@@ -213,16 +203,14 @@
               <ViewAffair />
             </div>
             <div class="modal-footer">
-              <button
+                <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
-                Close
+                Fermer
               </button>
-              <button type="button" class="btn btn-primary">
-                Save changes
-              </button>
+               
             </div>
           </div>
         </div>
@@ -258,16 +246,14 @@
               <Fee />
             </div>
             <div class="modal-footer">
-              <button
+                <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
-                Close
+                Fermer
               </button>
-              <button type="button" class="btn btn-primary">
-                Save changes
-              </button>
+               
             </div>
           </div>
         </div>
@@ -303,16 +289,14 @@
               <ArchiveAffair />
             </div>
             <div class="modal-footer">
-              <button
+                <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
-                Close
+                Fermer
               </button>
-              <button type="button" class="btn btn-primary">
-                Save changes
-              </button>
+               
             </div>
           </div>
         </div>
@@ -348,16 +332,14 @@
               <EditAffair />
             </div>
             <div class="modal-footer">
-              <button
+                <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
-                Close
+                Fermer
               </button>
-              <button type="button" class="btn btn-primary">
-                Save changes
-              </button>
+               
             </div>
           </div>
         </div>
@@ -393,16 +375,14 @@
               <HearingDate />
             </div>
             <div class="modal-footer">
-              <button
+                <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
-                Close
+                Fermer
               </button>
-              <button type="button" class="btn btn-primary">
-                Save changes
-              </button>
+               
             </div>
           </div>
         </div>
@@ -438,16 +418,14 @@
               <AddNote />
             </div>
             <div class="modal-footer">
-              <button
+                <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
-                Close
+                Fermer
               </button>
-              <button type="button" class="btn btn-primary">
-                Save changes
-              </button>
+               
             </div>
           </div>
         </div>
