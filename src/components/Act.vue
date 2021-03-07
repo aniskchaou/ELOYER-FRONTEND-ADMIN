@@ -38,7 +38,7 @@
             </td>
           </tr>
 
-           <tr>
+          <tr>
             <td>Méfait et fraude</td>
             <td>
               <button class="btn btn-sm btn-success">Editer</button>
@@ -61,19 +61,15 @@
               <button class="btn btn-sm btn-warning">Supprimer</button>
             </td>
           </tr>
-          
-
-          
         </tbody>
-         <tfoot class="thead-light">
+        <tfoot class="thead-light">
           <tr>
             <th scope="col" class="sort" data-sort="name">Nom</th>
             <th scope="col">Actions</th>
           </tr>
-         </tfoot>
+        </tfoot>
       </table>
 
-      
       <button
         type="button"
         style="float: left"
@@ -97,9 +93,7 @@
         >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">
-                Modal title
-              </h5>
+              <h5 class="modal-title" id="exampleModalLongTitle">Nouveau</h5>
               <button
                 type="button"
                 class="close"
@@ -113,63 +107,66 @@
               <AddAct />
             </div>
             <div class="modal-footer">
-                <button
+              <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Fermer
               </button>
-               
             </div>
           </div>
         </div>
       </div>
-
-
-
-
-
-
-
-
     </div>
     <!-- Card footer -->
-
   </div>
 </template>
 
 <script>
-import AddAct from './AddAct.vue';
+import AddAct from "./AddAct.vue";
 export default {
   name: "Act",
-  components:{
-    "AddAct":AddAct
+  components: {
+    AddAct: AddAct,
   },
   mounted() {
-   //An array of assets
+    //An array of assets
     let scripts = [
-        
       { src: "https://code.jquery.com/jquery-2.2.4.min.js" },
-        { src: "https://cdn.datatables.net/v/dt/b-1.6.5/b-flash-1.6.5/b-html5-1.6.5/datatables.min.js" },
-        { src: "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js" },
-        { src: "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js" },
-        { src: "https://cdn.datatables.net/v/dt/dt-1.10.23/b-1.6.5/b-colvis-1.6.5/b-html5-1.6.5/datatables.min.js" },
-        { src: "https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.10.23/b-1.6.5/b-html5-1.6.5/b-print-1.6.5/datatables.min.js" },
-        { src: "js/init.js" }
-    ]
+      {
+        src:
+          "https://cdn.datatables.net/v/dt/b-1.6.5/b-flash-1.6.5/b-html5-1.6.5/datatables.min.js",
+      },
+      {
+        src:
+          "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js",
+      },
+      {
+        src:
+          "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js",
+      },
+      {
+        src:
+          "https://cdn.datatables.net/v/dt/dt-1.10.23/b-1.6.5/b-colvis-1.6.5/b-html5-1.6.5/datatables.min.js",
+      },
+      {
+        src:
+          "https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.10.23/b-1.6.5/b-html5-1.6.5/b-print-1.6.5/datatables.min.js",
+      },
+      { src: "js/init.js" },
+    ];
     //Append the script element on each iteration
-    
-       
-        for (let i = 0; i < scripts.length; i++) {
-          const node = document.createElement('script');
-          node.src = scripts[i].src;
-          node.type = 'application/javascript';
-          node.async = false;
-          node.charset = 'utf-8';
-          document.body.appendChild(node);
-          console.log(i)
-        }  
+
+    for (let i = 0; i < scripts.length; i++) {
+      const node = document.createElement("script");
+      node.src = scripts[i].src;
+      node.type = "application/javascript";
+      node.async = false;
+      node.charset = "utf-8";
+      document.body.appendChild(node);
+      console.log(i);
+    }
   },
   props: {},
 };

@@ -431,9 +431,7 @@
                   </td>
                   <td></td>
                   <td>
-                    <a
-                      href="http://advocate.webappsdemo.in/admin/invoice/index/23"
-                      class="btn btn-default"
+                    <a href="#" class="btn btn-default"
                       ><font style="vertical-align: inherit"
                         ><font style="vertical-align: inherit"
                           >Facture d'achat</font
@@ -464,9 +462,7 @@
                   </td>
                   <td></td>
                   <td>
-                    <a
-                      href="http://advocate.webappsdemo.in/admin/invoice/index/50"
-                      class="btn btn-default"
+                    <a href="#" class="btn btn-default"
                       ><font style="vertical-align: inherit"
                         ><font style="vertical-align: inherit"
                           >Facture d'achat</font
@@ -503,9 +499,7 @@
                     >
                   </td>
                   <td>
-                    <a
-                      href="http://advocate.webappsdemo.in/admin/invoice/index/84"
-                      class="btn btn-default"
+                    <a href="#" class="btn btn-default"
                       ><font style="vertical-align: inherit"
                         ><font style="vertical-align: inherit"
                           >Facture d'achat</font
@@ -540,9 +534,7 @@
                     >
                   </td>
                   <td>
-                    <a
-                      href="http://advocate.webappsdemo.in/admin/invoice/index/85"
-                      class="btn btn-default"
+                    <a href="#" class="btn btn-default"
                       ><font style="vertical-align: inherit"
                         ><font style="vertical-align: inherit"
                           >Facture d'achat</font
@@ -579,9 +571,7 @@
                     >
                   </td>
                   <td>
-                    <a
-                      href="http://advocate.webappsdemo.in/admin/invoice/index/86"
-                      class="btn btn-default"
+                    <a href="#" class="btn btn-default"
                       ><font style="vertical-align: inherit"
                         ><font style="vertical-align: inherit"
                           >Facture d'achat</font
@@ -616,9 +606,7 @@
                     >
                   </td>
                   <td>
-                    <a
-                      href="http://advocate.webappsdemo.in/admin/invoice/index/87"
-                      class="btn btn-default"
+                    <a href="#" class="btn btn-default"
                       ><font style="vertical-align: inherit"
                         ><font style="vertical-align: inherit"
                           >Facture d'achat</font
@@ -653,9 +641,7 @@
                     >
                   </td>
                   <td>
-                    <a
-                      href="http://advocate.webappsdemo.in/admin/invoice/index/88"
-                      class="btn btn-default"
+                    <a href="#" class="btn btn-default"
                       ><font style="vertical-align: inherit"
                         ><font style="vertical-align: inherit"
                           >Facture d'achat</font
@@ -690,9 +676,7 @@
                     >
                   </td>
                   <td>
-                    <a
-                      href="http://advocate.webappsdemo.in/admin/invoice/index/89"
-                      class="btn btn-default"
+                    <a href="#" class="btn btn-default"
                       ><font style="vertical-align: inherit"
                         ><font style="vertical-align: inherit"
                           >Facture d'achat</font
@@ -727,9 +711,7 @@
                     >
                   </td>
                   <td>
-                    <a
-                      href="http://advocate.webappsdemo.in/admin/invoice/index/90"
-                      class="btn btn-default"
+                    <a href="#" class="btn btn-default"
                       ><font style="vertical-align: inherit"
                         ><font style="vertical-align: inherit"
                           >Facture d'achat</font
@@ -764,9 +746,7 @@
                     >
                   </td>
                   <td>
-                    <a
-                      href="http://advocate.webappsdemo.in/admin/invoice/index/91"
-                      class="btn btn-default"
+                    <a href="#" class="btn btn-default"
                       ><font style="vertical-align: inherit"
                         ><font style="vertical-align: inherit"
                           >Facture d'achat</font
@@ -1053,10 +1033,7 @@
                       >
                     </td>
                     <td>
-                      <a
-                        class="btn btn-default"
-                        href="http://advocate.webappsdemo.in/assets/uploads/files/6u71cqr.png"
-                        target="_blank"
+                      <a class="btn btn-default" href="#" target="_blank"
                         ><i class="fa fa-download"></i
                         ><font style="vertical-align: inherit"
                           ><font style="vertical-align: inherit">
@@ -1094,10 +1071,7 @@
                       >
                     </td>
                     <td>
-                      <a
-                        class="btn btn-default"
-                        href="http://advocate.webappsdemo.in/assets/uploads/files/2.jpg"
-                        target="_blank"
+                      <a class="btn btn-default" href="#" target="_blank"
                         ><i class="fa fa-download"></i
                         ><font style="vertical-align: inherit"
                           ><font style="vertical-align: inherit">

@@ -68,7 +68,7 @@
             </td>
           </tr>
 
-           <tr>
+          <tr>
             <td>4343-4433</td>
             <td>Méfait et fraude - Grimard</td>
             <td>Evrard Grimard</td>
@@ -119,14 +119,14 @@
             </td>
           </tr>
         </tbody>
-         <tfoot class="thead-light">
+        <tfoot class="thead-light">
           <tr>
             <th scope="col" class="sort" data-sort="name">No</th>
             <th scope="col" class="sort" data-sort="budget">Titre</th>
             <th scope="col" class="sort" data-sort="status">Client</th>
             <th scope="col">Actions</th>
           </tr>
-         </tfoot>
+        </tfoot>
       </table>
 
       <button
@@ -152,9 +152,7 @@
         >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">
-                Modal title
-              </h5>
+              <h5 class="modal-title" id="exampleModalLongTitle">Nouveau</h5>
               <button
                 type="button"
                 class="close"
@@ -168,14 +166,13 @@
               <AddAffair />
             </div>
             <div class="modal-footer">
-                <button
+              <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Fermer
               </button>
-               
             </div>
           </div>
         </div>
@@ -196,7 +193,7 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLongTitle">
-                Modal title
+                Voir Affair
               </h5>
               <button
                 type="button"
@@ -211,14 +208,13 @@
               <ViewAffair />
             </div>
             <div class="modal-footer">
-                <button
+              <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Fermer
               </button>
-               
             </div>
           </div>
         </div>
@@ -238,9 +234,7 @@
         >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">
-                Modal title
-              </h5>
+              <h5 class="modal-title" id="exampleModalLongTitle">Honoraire</h5>
               <button
                 type="button"
                 class="close"
@@ -254,14 +248,13 @@
               <Fee />
             </div>
             <div class="modal-footer">
-                <button
+              <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Fermer
               </button>
-               
             </div>
           </div>
         </div>
@@ -281,9 +274,7 @@
         >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">
-                Modal title
-              </h5>
+              <h5 class="modal-title" id="exampleModalLongTitle">Archiver</h5>
               <button
                 type="button"
                 class="close"
@@ -297,14 +288,13 @@
               <ArchiveAffair />
             </div>
             <div class="modal-footer">
-                <button
+              <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Fermer
               </button>
-               
             </div>
           </div>
         </div>
@@ -324,9 +314,7 @@
         >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">
-                Modal title
-              </h5>
+              <h5 class="modal-title" id="exampleModalLongTitle">Editer</h5>
               <button
                 type="button"
                 class="close"
@@ -340,14 +328,13 @@
               <EditAffair />
             </div>
             <div class="modal-footer">
-                <button
+              <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Fermer
               </button>
-               
             </div>
           </div>
         </div>
@@ -368,7 +355,7 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLongTitle">
-                Modal title
+                Date d'audiance
               </h5>
               <button
                 type="button"
@@ -383,14 +370,13 @@
               <HearingDate />
             </div>
             <div class="modal-footer">
-                <button
+              <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Fermer
               </button>
-               
             </div>
           </div>
         </div>
@@ -410,9 +396,7 @@
         >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">
-                Modal title
-              </h5>
+              <h5 class="modal-title" id="exampleModalLongTitle">Remarque</h5>
               <button
                 type="button"
                 class="close"
@@ -426,21 +410,19 @@
               <AddNote />
             </div>
             <div class="modal-footer">
-                <button
+              <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Fermer
               </button>
-               
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- Card footer -->
-  
   </div>
 </template>
 

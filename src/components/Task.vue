@@ -23,13 +23,18 @@
             <td>12/08/2020</td>
             <td>Yvon Varieur</td>
             <td>
-              <button  data-toggle="modal" data-target="#editTask" class="btn btn-sm btn-success">Editer</button>
+              <button
+                data-toggle="modal"
+                data-target="#editTask"
+                class="btn btn-sm btn-success"
+              >
+                Editer
+              </button>
               <button class="btn btn-sm btn-warning">Supprimer</button>
-             
             </td>
           </tr>
         </tbody>
-         <tfoot class="thead-light">
+        <tfoot class="thead-light">
           <tr>
             <th scope="col" class="sort" data-sort="name">Nom</th>
             <th scope="col" class="sort" data-sort="name">Priorité</th>
@@ -37,10 +42,10 @@
             <th scope="col" class="sort" data-sort="name">Crée par</th>
             <th scope="col">Actions</th>
           </tr>
-         </tfoot>
+        </tfoot>
       </table>
 
-        <button
+      <button
         type="button"
         style="float: left"
         class="btn btn-success btn-sm"
@@ -63,9 +68,7 @@
         >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">
-                Modal title
-              </h5>
+              <h5 class="modal-title" id="exampleModalLongTitle">Nouveau</h5>
               <button
                 type="button"
                 class="close"
@@ -79,19 +82,17 @@
               <AddTask />
             </div>
             <div class="modal-footer">
-                <button
+              <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Fermer
               </button>
-               
             </div>
           </div>
         </div>
       </div>
-
 
       <div
         class="modal fade"
@@ -107,9 +108,7 @@
         >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">
-                Modal title
-              </h5>
+              <h5 class="modal-title" id="exampleModalLongTitle">Edit</h5>
               <button
                 type="button"
                 class="close"
@@ -123,35 +122,30 @@
               <EditTask />
             </div>
             <div class="modal-footer">
-                <button
+              <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Fermer
               </button>
-               
             </div>
           </div>
         </div>
       </div>
-
-
     </div>
     <!-- Card footer -->
-
   </div>
 </template>
 
 <script>
-
-import AddTask from './AddTask.vue';
-import EditTask from './EditTask.vue';
+import AddTask from "./AddTask.vue";
+import EditTask from "./EditTask.vue";
 export default {
   name: "Task",
-  components:{
-    "AddTask":AddTask,
-    "EditTask":EditTask
+  components: {
+    AddTask: AddTask,
+    EditTask: EditTask,
   },
   props: {},
 };

@@ -8,7 +8,7 @@
     <!-- Light table -->
     <div class="table-responsive">
       <table class="table align-items-center table-flush">
-             <thead class="thead-light">
+        <thead class="thead-light">
           <tr>
             <th scope="col" class="sort" data-sort="name">No</th>
             <th scope="col" class="sort" data-sort="budget">Titre</th>
@@ -68,7 +68,7 @@
             </td>
           </tr>
 
-           <tr>
+          <tr>
             <td>4343-4433</td>
             <td>Méfait et fraude - Grimard</td>
             <td>Evrard Grimard</td>
@@ -119,14 +119,14 @@
             </td>
           </tr>
         </tbody>
-         <tfoot class="thead-light">
+        <tfoot class="thead-light">
           <tr>
             <th scope="col" class="sort" data-sort="name">No</th>
             <th scope="col" class="sort" data-sort="budget">Titre</th>
             <th scope="col" class="sort" data-sort="status">Client</th>
             <th scope="col">Actions</th>
           </tr>
-         </tfoot>
+        </tfoot>
       </table>
 
       <div
@@ -143,9 +143,7 @@
         >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">
-                Modal title
-              </h5>
+              <h5 class="modal-title" id="exampleModalLongTitle">Nouveau</h5>
               <button
                 type="button"
                 class="close"
@@ -159,14 +157,13 @@
               <AddAffair />
             </div>
             <div class="modal-footer">
-                <button
+              <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Fermer
               </button>
-               
             </div>
           </div>
         </div>
@@ -186,9 +183,7 @@
         >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">
-                Modal title
-              </h5>
+              <h5 class="modal-title" id="exampleModalLongTitle">Voir</h5>
               <button
                 type="button"
                 class="close"
@@ -202,14 +197,13 @@
               <ViewAffair />
             </div>
             <div class="modal-footer">
-                <button
+              <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Fermer
               </button>
-               
             </div>
           </div>
         </div>
@@ -229,9 +223,7 @@
         >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">
-                Modal title
-              </h5>
+              <h5 class="modal-title" id="exampleModalLongTitle">Frais</h5>
               <button
                 type="button"
                 class="close"
@@ -245,14 +237,13 @@
               <Fee />
             </div>
             <div class="modal-footer">
-                <button
+              <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Fermer
               </button>
-               
             </div>
           </div>
         </div>
@@ -272,9 +263,7 @@
         >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">
-                Modal title
-              </h5>
+              <h5 class="modal-title" id="exampleModalLongTitle">Archiver</h5>
               <button
                 type="button"
                 class="close"
@@ -288,14 +277,13 @@
               <ArchiveAffair />
             </div>
             <div class="modal-footer">
-                <button
+              <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Fermer
               </button>
-               
             </div>
           </div>
         </div>
@@ -315,9 +303,7 @@
         >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">
-                Modal title
-              </h5>
+              <h5 class="modal-title" id="exampleModalLongTitle">Edit</h5>
               <button
                 type="button"
                 class="close"
@@ -331,14 +317,13 @@
               <EditAffair />
             </div>
             <div class="modal-footer">
-                <button
+              <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Fermer
               </button>
-               
             </div>
           </div>
         </div>
@@ -359,7 +344,7 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLongTitle">
-                Modal title
+                Date d'audiance
               </h5>
               <button
                 type="button"
@@ -374,14 +359,13 @@
               <HearingDate />
             </div>
             <div class="modal-footer">
-                <button
+              <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Fermer
               </button>
-               
             </div>
           </div>
         </div>
@@ -401,9 +385,7 @@
         >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">
-                Modal title
-              </h5>
+              <h5 class="modal-title" id="exampleModalLongTitle">Note</h5>
               <button
                 type="button"
                 class="close"
@@ -417,21 +399,19 @@
               <AddNote />
             </div>
             <div class="modal-footer">
-                <button
+              <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Fermer
               </button>
-               
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- Card footer -->
-
   </div>
 </template>
 
@@ -456,29 +436,42 @@ export default {
     AddNote: AddNote,
   },
   mounted() {
-   //An array of assets
+    //An array of assets
     let scripts = [
-        
       { src: "https://code.jquery.com/jquery-2.2.4.min.js" },
-        { src: "https://cdn.datatables.net/v/dt/b-1.6.5/b-flash-1.6.5/b-html5-1.6.5/datatables.min.js" },
-        { src: "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js" },
-        { src: "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js" },
-        { src: "https://cdn.datatables.net/v/dt/dt-1.10.23/b-1.6.5/b-colvis-1.6.5/b-html5-1.6.5/datatables.min.js" },
-        { src: "https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.10.23/b-1.6.5/b-html5-1.6.5/b-print-1.6.5/datatables.min.js" },
-        { src: "js/init.js" }
-    ]
+      {
+        src:
+          "https://cdn.datatables.net/v/dt/b-1.6.5/b-flash-1.6.5/b-html5-1.6.5/datatables.min.js",
+      },
+      {
+        src:
+          "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js",
+      },
+      {
+        src:
+          "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js",
+      },
+      {
+        src:
+          "https://cdn.datatables.net/v/dt/dt-1.10.23/b-1.6.5/b-colvis-1.6.5/b-html5-1.6.5/datatables.min.js",
+      },
+      {
+        src:
+          "https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.10.23/b-1.6.5/b-html5-1.6.5/b-print-1.6.5/datatables.min.js",
+      },
+      { src: "js/init.js" },
+    ];
     //Append the script element on each iteration
-    
-       
-        for (let i = 0; i < scripts.length; i++) {
-          const node = document.createElement('script');
-          node.src = scripts[i].src;
-          node.type = 'application/javascript';
-          node.async = false;
-          node.charset = 'utf-8';
-          document.body.appendChild(node);
-          console.log(i)
-        }  
+
+    for (let i = 0; i < scripts.length; i++) {
+      const node = document.createElement("script");
+      node.src = scripts[i].src;
+      node.type = "application/javascript";
+      node.async = false;
+      node.charset = "utf-8";
+      document.body.appendChild(node);
+      console.log(i);
+    }
   },
   props: {},
 };

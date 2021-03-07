@@ -65,9 +65,7 @@
         >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">
-                Modal title
-              </h5>
+              <h5 class="modal-title" id="exampleModalLongTitle">Voir</h5>
               <button
                 type="button"
                 class="close"
@@ -81,57 +79,13 @@
               <ViewCaseStudy />
             </div>
             <div class="modal-footer">
-                <button
-                type="button"
-                class="btn btn-secondary"
-                data-dismiss="modal"
-              >
-                Fermer
-              </button>
-               
-            </div>
-          </div>
-        </div>
-      </div>
-     
-           <div
-        class="modal fade"
-        id="editerCase"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="exampleModalCenterTitle"
-        aria-hidden="true"
-      >
-        <div
-          class="modal-dialog modal-dialog-centered modal-lg"
-          role="document"
-        >
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">
-                Modal title
-              </h5>
               <button
                 type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <AddCaseStudy />
-            </div>
-            <div class="modal-footer">
-                <button
-                type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Fermer
               </button>
-               
             </div>
           </div>
         </div>
@@ -151,9 +105,47 @@
         >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">
-                Modal title
-              </h5>
+              <h5 class="modal-title" id="exampleModalLongTitle">Nouveau</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <AddCaseStudy />
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Fermer
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="editerCase"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog modal-dialog-centered modal-lg"
+          role="document"
+        >
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Edit</h5>
               <button
                 type="button"
                 class="close"
@@ -167,21 +159,19 @@
               <EditStudyCase />
             </div>
             <div class="modal-footer">
-                <button
+              <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Fermer
               </button>
-               
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- Card footer -->
-
 
     <div
       class="modal fade"
@@ -194,7 +184,7 @@
       <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+            <h5 class="modal-title" id="exampleModalLongTitle">Nouveau</h5>
             <button
               type="button"
               class="close"
@@ -226,12 +216,14 @@
 <script>
 import ViewCaseStudy from "@/components/ViewCaseStudy.vue";
 import AddCaseStudy from "@/components/AddCaseStudy.vue";
-import EditStudyCase from './EditStudyCase.vue';
+import EditStudyCase from "./EditStudyCase.vue";
 export default {
   name: "Study",
-  components: { "ViewCaseStudy": ViewCaseStudy,
-  "AddCaseStudy": AddCaseStudy,
-  "EditStudyCase":EditStudyCase},
+  components: {
+    ViewCaseStudy: ViewCaseStudy,
+    AddCaseStudy: AddCaseStudy,
+    EditStudyCase: EditStudyCase,
+  },
   props: {},
 };
 </script>

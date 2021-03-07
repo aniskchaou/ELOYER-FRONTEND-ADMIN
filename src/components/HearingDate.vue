@@ -1,9 +1,5 @@
 <template>
-  <form
-    method="post"
-    action="http://advocate.webappsdemo.in/admin/cases/dates/5"
-    enctype="multipart/form-data"
-  >
+  <form method="post" action="#" enctype="multipart/form-data">
     <div class="box-body">
       <div class="form-group">
         <div class="row">
@@ -190,25 +186,20 @@
                   <td>03/09/20</td>
                   <td>jhgkghjk</td>
                   <td>
-                    <a
-                      class="btn btn-default"
-                      href="http://advocate.webappsdemo.in/assets/uploads/files/6u71cqr.png"
-                      target="_blank"
+                    <a class="btn btn-default" href="#" target="_blank"
                       ><i class="fa fa-download"></i> Attachment</a
                     >
                   </td>
 
                   <td width="20%">
-                    <a
-                      class="btn btn-primary"
-                      href="http://advocate.webappsdemo.in/admin/cases/dates_detail/30"
+                    <a class="btn btn-primary" href="#"
                       ><i class="fa fa-eye"></i> View</a
                     >
 
                     <a
                       class="btn btn-danger"
                       style="margin-left: 20px"
-                      href="http://advocate.webappsdemo.in/admin/cases/delete_history/30"
+                      href="#"
                       onclick="return areyousure()"
                       ><i class="fa fa-trash"></i> Delete</a
                     >
@@ -220,25 +211,20 @@
                   <td>03/12/20</td>
                   <td>test</td>
                   <td>
-                    <a
-                      class="btn btn-default"
-                      href="http://advocate.webappsdemo.in/assets/uploads/files/2.jpg"
-                      target="_blank"
+                    <a class="btn btn-default" href="#" target="_blank"
                       ><i class="fa fa-download"></i> Attachment</a
                     >
                   </td>
 
                   <td width="20%">
-                    <a
-                      class="btn btn-primary"
-                      href="http://advocate.webappsdemo.in/admin/cases/dates_detail/29"
+                    <a class="btn btn-primary" href="#"
                       ><i class="fa fa-eye"></i> View</a
                     >
 
                     <a
                       class="btn btn-danger"
                       style="margin-left: 20px"
-                      href="http://advocate.webappsdemo.in/admin/cases/delete_history/29"
+                      href="#"
                       onclick="return areyousure()"
                       ><i class="fa fa-trash"></i> Delete</a
                     >
@@ -308,8 +294,7 @@
 <script>
 export default {
   name: "HearingDate",
-  mounted() {
-  },
+  mounted() {},
   props: {},
 };
 </script>
