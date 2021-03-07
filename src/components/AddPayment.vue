@@ -75,11 +75,7 @@
       <div class="tab-content">
         <div class="tab-pane active" id="1">
           <!-- form start -->
-          <form
-            method="post"
-            action="http://advocate.webappsdemo.in/admin/cases/fees/5"
-            enctype="multipart/form-data"
-          >
+          <form method="post" action="#" enctype="multipart/form-data">
             <input type="hidden" name="inr" id="inr" value="3456.00" />
             <input type="hidden" name="bal" id="bal" value="579949.00" />
             <div class="form-group" style="margin-top: 20px">
@@ -556,7 +552,7 @@
                           <a
                             class="btn btn-default"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/invoice/index/23"
+                            href="#23"
                             ><i class="fa fa-list"></i
                             ><font style="vertical-align: inherit"
                               ><font style="vertical-align: inherit">
@@ -568,7 +564,7 @@
                           <a
                             class="btn btn-danger"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/cases/delete_fees/23"
+                            href="#23"
                             onclick="return areyousure()"
                             ><i class="fa fa-trash"></i
                             ><font style="vertical-align: inherit"
@@ -614,7 +610,7 @@
                           <a
                             class="btn btn-default"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/invoice/index/50"
+                            href="#50"
                             ><i class="fa fa-list"></i
                             ><font style="vertical-align: inherit"
                               ><font style="vertical-align: inherit">
@@ -626,7 +622,7 @@
                           <a
                             class="btn btn-danger"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/cases/delete_fees/50"
+                            href="#50"
                             onclick="return areyousure()"
                             ><i class="fa fa-trash"></i
                             ><font style="vertical-align: inherit"
@@ -678,7 +674,7 @@
                           <a
                             class="btn btn-default"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/invoice/index/84"
+                            href="#84"
                             ><i class="fa fa-list"></i
                             ><font style="vertical-align: inherit"
                               ><font style="vertical-align: inherit">
@@ -690,7 +686,7 @@
                           <a
                             class="btn btn-danger"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/cases/delete_fees/84"
+                            href="#84"
                             onclick="return areyousure()"
                             ><i class="fa fa-trash"></i
                             ><font style="vertical-align: inherit"
@@ -742,7 +738,7 @@
                           <a
                             class="btn btn-default"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/invoice/index/85"
+                            href="#85"
                             ><i class="fa fa-list"></i
                             ><font style="vertical-align: inherit"
                               ><font style="vertical-align: inherit">
@@ -754,7 +750,7 @@
                           <a
                             class="btn btn-danger"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/cases/delete_fees/85"
+                            href="#85"
                             onclick="return areyousure()"
                             ><i class="fa fa-trash"></i
                             ><font style="vertical-align: inherit"
@@ -806,7 +802,7 @@
                           <a
                             class="btn btn-default"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/invoice/index/86"
+                            href="#86"
                             ><i class="fa fa-list"></i
                             ><font style="vertical-align: inherit"
                               ><font style="vertical-align: inherit">
@@ -818,7 +814,7 @@
                           <a
                             class="btn btn-danger"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/cases/delete_fees/86"
+                            href="#86"
                             onclick="return areyousure()"
                             ><i class="fa fa-trash"></i
                             ><font style="vertical-align: inherit"
@@ -870,7 +866,7 @@
                           <a
                             class="btn btn-default"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/invoice/index/87"
+                            href="#87"
                             ><i class="fa fa-list"></i
                             ><font style="vertical-align: inherit"
                               ><font style="vertical-align: inherit">
@@ -882,7 +878,7 @@
                           <a
                             class="btn btn-danger"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/cases/delete_fees/87"
+                            href="#87"
                             onclick="return areyousure()"
                             ><i class="fa fa-trash"></i
                             ><font style="vertical-align: inherit"
@@ -934,7 +930,7 @@
                           <a
                             class="btn btn-default"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/invoice/index/88"
+                            href="#88"
                             ><i class="fa fa-list"></i
                             ><font style="vertical-align: inherit"
                               ><font style="vertical-align: inherit">
@@ -946,7 +942,7 @@
                           <a
                             class="btn btn-danger"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/cases/delete_fees/88"
+                            href="#88"
                             onclick="return areyousure()"
                             ><i class="fa fa-trash"></i
                             ><font style="vertical-align: inherit"
@@ -998,7 +994,7 @@
                           <a
                             class="btn btn-default"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/invoice/index/89"
+                            href="#89"
                             ><i class="fa fa-list"></i
                             ><font style="vertical-align: inherit"
                               ><font style="vertical-align: inherit">
@@ -1010,7 +1006,7 @@
                           <a
                             class="btn btn-danger"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/cases/delete_fees/89"
+                            href="#89"
                             onclick="return areyousure()"
                             ><i class="fa fa-trash"></i
                             ><font style="vertical-align: inherit"
@@ -1062,7 +1058,7 @@
                           <a
                             class="btn btn-default"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/invoice/index/90"
+                            href="#90"
                             ><i class="fa fa-list"></i
                             ><font style="vertical-align: inherit"
                               ><font style="vertical-align: inherit">
@@ -1074,7 +1070,7 @@
                           <a
                             class="btn btn-danger"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/cases/delete_fees/90"
+                            href="#90"
                             onclick="return areyousure()"
                             ><i class="fa fa-trash"></i
                             ><font style="vertical-align: inherit"
@@ -1126,7 +1122,7 @@
                           <a
                             class="btn btn-default"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/invoice/index/91"
+                            href="#91"
                             ><i class="fa fa-list"></i
                             ><font style="vertical-align: inherit"
                               ><font style="vertical-align: inherit">
@@ -1138,7 +1134,7 @@
                           <a
                             class="btn btn-danger"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/cases/delete_fees/91"
+                            href="#91"
                             onclick="return areyousure()"
                             ><i class="fa fa-trash"></i
                             ><font style="vertical-align: inherit"
@@ -1420,7 +1416,7 @@
                           <a
                             class="btn btn-default"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/cases/view_receipt/11"
+                            href="#11"
                             ><i class="fa fa-list"></i
                             ><font style="vertical-align: inherit"
                               ><font style="vertical-align: inherit">
@@ -1432,7 +1428,7 @@
                           <a
                             class="btn btn-danger"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/cases/delete_deceipt/11/5"
+                            href="#11/5"
                             onclick="return areyousure()"
                             ><i class="fa fa-trash"></i
                             ><font style="vertical-align: inherit"
@@ -1470,7 +1466,7 @@
                           <a
                             class="btn btn-default"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/cases/view_receipt/18"
+                            href="#18"
                             ><i class="fa fa-list"></i
                             ><font style="vertical-align: inherit"
                               ><font style="vertical-align: inherit">
@@ -1482,7 +1478,7 @@
                           <a
                             class="btn btn-danger"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/cases/delete_deceipt/18/5"
+                            href="#18/5"
                             onclick="return areyousure()"
                             ><i class="fa fa-trash"></i
                             ><font style="vertical-align: inherit"
@@ -1520,7 +1516,7 @@
                           <a
                             class="btn btn-default"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/cases/view_receipt/28"
+                            href="#28"
                             ><i class="fa fa-list"></i
                             ><font style="vertical-align: inherit"
                               ><font style="vertical-align: inherit">
@@ -1532,7 +1528,7 @@
                           <a
                             class="btn btn-danger"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/cases/delete_deceipt/28/5"
+                            href="#28/5"
                             onclick="return areyousure()"
                             ><i class="fa fa-trash"></i
                             ><font style="vertical-align: inherit"
@@ -1570,7 +1566,7 @@
                           <a
                             class="btn btn-default"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/cases/view_receipt/29"
+                            href="#29"
                             ><i class="fa fa-list"></i
                             ><font style="vertical-align: inherit"
                               ><font style="vertical-align: inherit">
@@ -1582,7 +1578,7 @@
                           <a
                             class="btn btn-danger"
                             style="margin-left: 20px"
-                            href="http://advocate.webappsdemo.in/admin/cases/delete_deceipt/29/5"
+                            href="#29/5"
                             onclick="return areyousure()"
                             ><i class="fa fa-trash"></i
                             ><font style="vertical-align: inherit"
